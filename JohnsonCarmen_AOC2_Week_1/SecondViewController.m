@@ -35,7 +35,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     // Loads text into textfield
-    devInfo.text = @"Wes Kaminer";
+    devInfo.text = @"Carmen Johnson";
     
     [super viewWillAppear:animated];
 }
