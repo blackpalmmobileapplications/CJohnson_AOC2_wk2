@@ -7,39 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WeightRoomFactory.h"
 
-@interface ViewController : UIViewController
+@class ViewController;
 
-{
-    // Text Fields
-    IBOutlet UITextField *displayInfo;
-    
-    // Buttons
-    IBOutlet UIButton *ectomorphButton;
-    IBOutlet UIButton *bodyBuildersButton;
-    IBOutlet UIButton *gymButton;
-    IBOutlet UIButton *calcAdvButton; // For the calculate button
-    
-    // Image View
-    IBOutlet UIImageView *ectomorphImage;
-    IBOutlet UIImageView *bodyBuildersImage;
-    IBOutlet UIImageView *gymImage;
-    UIImage *eclogo;
-    UIImage *ectomorphChange;
-    UIImage *bodyBuildersChange;
-    UIImage *gymChange;
-    
-    // Stepper
-    IBOutlet UIStepper *stepControl;
-    
-}
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-// Actions
--(IBAction)faction:(id)sender; // faction buttons
--(IBAction)calculate:(id)sender; // calculate button
--(IBAction)information:(id)sender; // info button
--(IBAction)stepChange:(id)sender; // stepper
--(IBAction)segmentChange:(id)sender; // segmented control
+@property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) ViewController *viewController;
 
 @end
+
