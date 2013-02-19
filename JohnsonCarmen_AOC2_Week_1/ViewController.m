@@ -125,15 +125,15 @@
     int addUnit = stepControl.value;
     if (ectomorphButton.enabled == false)
     {
-        displayInfo.text = [NSString stringWithFormat:@"add %d Ectomorph units", addUnit];
+        displayInfo.text = [NSString stringWithFormat:@"add %d Ectomorph ", addUnit];
     }
     else if (bodyBuildersButton.enabled == false)
     {
-        displayInfo.text = [NSString stringWithFormat:@"add %d resource", addUnit];
+        displayInfo.text = [NSString stringWithFormat:@"add %d Bodybuilder", addUnit];
     }
     else if (gymButton.enabled == false)
     {
-        displayInfo.text = [NSString stringWithFormat:@"%d muscles built", addUnit];
+        displayInfo.text = [NSString stringWithFormat:@"%d Pds of Muscle", addUnit];
     }
 }
 
@@ -152,7 +152,7 @@
         if (ectomorphInfo != nil)
         {
             [ectomorphInfo calculateAdvantage];
-            [ectomorphInfo setMuscleSize:40]; // Size of Muscles
+            [ectomorphInfo setMuscleSize:4]; // Size of Muscles
             int _addUnits = ectomorphInfo.MuscleSize + _calculate;
             displayInfo.text = [NSString stringWithFormat:@"There are %d %@ lifting.", _addUnits, ectomorphInfo. playerClass];
             stepControl.value = 0; // set value back to 40
@@ -164,7 +164,7 @@
         if (bodyBuildersInfo != nil)
         {
             [bodyBuildersInfo calculateAdvantage];
-            [bodyBuildersInfo setResources:800]; // Sets resources
+            [bodyBuildersInfo setResources:10]; // Sets resources
             int _addResource = bodyBuildersInfo.resources + _calculate;
             displayInfo.text = [NSString stringWithFormat:@"%d pounds gained.", _addResource];
             stepControl.value = 0; // set value back to 800
@@ -176,7 +176,7 @@
         if (gymInfo != nil)
         {
             [gymInfo calculateAdvantage];
-            [gymInfo setNumberOfPeople:20]; // number of buildings
+            [gymInfo setNumberOfPeople:5]; // number of buildings
             int _addPeople = gymInfo.numberOfPeople + _calculate;
             displayInfo.text = [NSString stringWithFormat:@"%d total pounds.", _addPeople];
             stepControl.value = 0; // set value back to 20

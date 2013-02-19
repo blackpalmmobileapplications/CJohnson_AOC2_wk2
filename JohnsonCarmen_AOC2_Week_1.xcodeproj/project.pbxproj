@@ -29,7 +29,7 @@
 		113E52B616CDCCCE00FF7AFE /* eclogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 113E52B516CDCCCE00FF7AFE /* eclogo.png */; };
 		113E52B816CDCCD600FF7AFE /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 113E52B716CDCCD600FF7AFE /* me.jpg */; };
 		113E52BA16CDCCDD00FF7AFE /* bodyBuilders.png in Resources */ = {isa = PBXBuildFile; fileRef = 113E52B916CDCCDD00FF7AFE /* bodyBuilders.png */; };
-		113E52BC16CDCCE400FF7AFE /* ectomorph.png in Resources */ = {isa = PBXBuildFile; fileRef = 113E52BB16CDCCE400FF7AFE /* ectomorph.png */; };
+		113E52BC16CDCCE400FF7AFE /* ectomorphs.png in Resources */ = {isa = PBXBuildFile; fileRef = 113E52BB16CDCCE400FF7AFE /* ectomorphs.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,7 +66,7 @@
 		113E52B516CDCCCE00FF7AFE /* eclogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eclogo.png; sourceTree = "<group>"; };
 		113E52B716CDCCD600FF7AFE /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
 		113E52B916CDCCDD00FF7AFE /* bodyBuilders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bodyBuilders.png; sourceTree = "<group>"; };
-		113E52BB16CDCCE400FF7AFE /* ectomorph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ectomorph.png; sourceTree = "<group>"; };
+		113E52BB16CDCCE400FF7AFE /* ectomorphs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ectomorphs.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 				113E52B316CDCCC500FF7AFE /* Gym.png */,
 				113E52B716CDCCD600FF7AFE /* me.jpg */,
 				113E52B916CDCCDD00FF7AFE /* bodyBuilders.png */,
-				113E52BB16CDCCE400FF7AFE /* ectomorph.png */,
+				113E52BB16CDCCE400FF7AFE /* ectomorphs.png */,
 				113E52B516CDCCCE00FF7AFE /* eclogo.png */,
 				110E653616C4771400B6BFF4 /* AppDelegate.h */,
 				110E653716C4771400B6BFF4 /* AppDelegate.m */,
@@ -216,7 +216,7 @@
 				113E52B616CDCCCE00FF7AFE /* eclogo.png in Resources */,
 				113E52B816CDCCD600FF7AFE /* me.jpg in Resources */,
 				113E52BA16CDCCDD00FF7AFE /* bodyBuilders.png in Resources */,
-				113E52BC16CDCCE400FF7AFE /* ectomorph.png in Resources */,
+				113E52BC16CDCCE400FF7AFE /* ectomorphs.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
